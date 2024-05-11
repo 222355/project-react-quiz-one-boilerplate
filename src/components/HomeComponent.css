@@ -1,0 +1,15 @@
+.playBtn{
+    background-color: green;
+    margin: 10px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 5px 5px;
+
+}
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    padding: 15%;
+    background-color: rgb(69, 14, 119);
+  }

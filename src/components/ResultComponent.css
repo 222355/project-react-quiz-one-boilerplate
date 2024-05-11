@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    place-items: center;
+    margin: 0;
+    background-color: rgb(69, 14, 119);
+  }
+.row-btn{
+    display: flex;
+}
+.playAgain{
+    color:blue;
+    border-color: blue;
+}
+.home{
+    color: green;
+    border-color: green;
+}

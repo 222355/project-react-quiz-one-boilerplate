@@ -1,0 +1,60 @@
+.Quiz-button{
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(95, 200, 242);
+    border: none;
+    border-radius: 16px;
+}
+body {
+    display: flex;
+    place-items: center;
+    margin: 0;
+    background-color: rgb(69, 14, 119);
+  }
+  .rowbtn{
+    display:flex;
+  }
+  .buttons{
+    padding: 10px;
+    height: 100px;
+    width: 500px;
+  }
+  .quiz-page{
+    margin: 0%;
+    padding: 100px;
+  }
+  p{
+    padding: 1%;
+    margin: 0;
+  }
+  .pageNo{
+    display: flex;
+    margin-left:0 ;
+  }
+  .Nav-Btn{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+  }
+  .NavBtn{
+    padding: 10px;
+    margin: 20px;
+    border: none;
+  }
+  .prev{
+    background-color: rgb(12, 122, 166);
+  }
+  .nxt{
+    background-color: green;
+}
+.qt{
+    background-color: red;
+}
+.quiz-page{
+    background-color: white;
+}
+.selected{
+    background-color: green;
+}
