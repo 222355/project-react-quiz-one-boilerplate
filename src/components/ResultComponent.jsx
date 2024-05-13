@@ -20,8 +20,9 @@ import QuizComponent from './QuizComponent';
             const {score,questions,attemptedQuestions} = this.props;
             const totalQuestions = questions.length;
             const attemptedquestions = attemptedQuestions;
-            const correctAnswers =Math.floor(score/10)
+            const correctAnswers =score
             const wrongAnswer = attemptedQuestions-correctAnswers
+            const percentage = ((correctAnswers/totalQuestions)*100)
             if(this.state.play){
                return <QuizComponent/>
             }
@@ -33,7 +34,7 @@ import QuizComponent from './QuizComponent';
                     <h1>Result</h1>
                     <div className="result">
                         <p></p>
-                        <h4>Your Score is {score}%</h4>
+                        <h4>Your Score is {percentage}%</h4>
                         <ul>
                             <li>Total number of questions :  { totalQuestions} </li>
                             <li>Number of attempted questions : {attemptedquestions}</li>
